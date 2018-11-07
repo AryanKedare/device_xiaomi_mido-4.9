@@ -307,6 +307,7 @@ PRODUCT_PACKAGES += \
     init.goodix.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
+    init.msm.usb.configfs.rc \
     init.qcom.rc \
     init.qcom.sh \
     init.qcom.usb.rc \
