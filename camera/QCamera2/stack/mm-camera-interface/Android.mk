@@ -22,6 +22,9 @@ endif
 # System header file path prefix
 LOCAL_CFLAGS += -DSYSTEM_HEADER_PREFIX=sys
 
+# Kernel headers
+LOCAL_CFLAGS += -DCONFIG_MACH_XIAOMI_C6 -DCONFIG_MACH_XIAOMI_MSM8953 -DCONFIG_MACH_XIAOMI_MIDO
+
 ifeq ($(strip $(TARGET_USES_ION)),true)
     LOCAL_CFLAGS += -DUSE_ION
 endif
